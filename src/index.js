@@ -25,7 +25,7 @@ TagManager.initialize(tagManagerArgs)
 if (process.env.NODE_ENV === "production") {
   Sentry.init({
     dsn:
-      "https://6d740d803d2a4a07a51cfbaaa93e3d3a@o456774.ingest.sentry.io/5571933",
+      "https://6b25ce66c9c14df1822389e88708742e@o1128175.ingest.sentry.io/6179291",
     autoSessionTracking: true,
     integrations: [new Integrations.BrowserTracing()],
 
